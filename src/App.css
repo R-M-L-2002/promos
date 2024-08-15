@@ -1,0 +1,32 @@
+.custom-header {
+  display: none; /* Oculta el header por defecto */
+}
+
+@media (min-width: 768px) { /* Muestra el header en pantallas medianas y grandes */
+  .custom-header {
+    display: block;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie-card .ant-card-body {
+  padding: 0;
+}
+
+.movie-image {
+  max-width: 50%;
+
+}
+
+.movie-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.text-center {
+  text-align: center;
+}
